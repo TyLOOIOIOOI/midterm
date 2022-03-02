@@ -10,18 +10,36 @@ You have been given partial code. The objective is to reproduce the output as sh
 
 
 
+import CourseClass as cc
+
 def main():
 
-    name = 'MIS 4322 - Advanced Python'
-    crn = '250309'
-    seats = 4
-    status = 'open'
-    students = ['John','James','Jill','Jack','Joanne']
+   name = 'MIS 4322 - Advanced Python'
+   crn = '250309'
+   seats = 4
+   status = 'open'
+   students = ['John','James','Jill','Jack','Joanne']
 
+#s = cc.Course('John' "" )
+#s = cc.Register, self.__studentname 
+n= 0
+
+#if s in students:
+   #if seats > 0:
+     # print("Student Name:", self.__students)
+
+   
     
 main()
 
 
+
+
+student1 = cc.Course("John","MIS 4322 - Advanced Python", 250309, 4)
+student2 = cc.Course("James","2/15/2022", 1500, 1)
+student3 = cc.Course("CT Scan","2/17/2022", 1200, 2)
+
+print(student1)
 
         
     
