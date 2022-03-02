@@ -20,13 +20,14 @@ def main():
    status = 'open'
    students = ['John','James','Jill','Jack','Joanne']
 
-#s = cc.Course('John' "" )
-#s = cc.Register, self.__studentname 
+s = cc.Course(name, crn, seats, status)
+s = cc.Register, self.__studentname 
 n= 0
 
-#if s in students:
-   #if seats > 0:
-     # print("Student Name:", self.__students)
+if s in students:
+   if seats > 0:
+     print("Student Name:", self.__students)
+     print("Course Name:", self.__register)
 
    
     
