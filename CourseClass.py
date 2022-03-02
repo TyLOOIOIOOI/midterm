@@ -28,6 +28,9 @@ class Course:
             if self.__seats == 0:
                self.__status = 'closed' 
 
+
+  
+        
 class Register:
 
     def __init__(self,name,crn):
